@@ -1,0 +1,133 @@
+.advertising {
+  width: 100%;
+}
+.box {
+  background: url(../images/2019071619355333872.png) no-repeat center;
+  height: 700px;
+  padding-top: 40px;
+}
+.box .message .messageLeft {
+  float: left;
+}
+.box .message .messageLeft h3 {
+  width: 290px;
+  height: 45px;
+  line-height: 45px;
+  color: #343434;
+  font-size: 24px;
+  text-align: center;
+  background: url(../images/2019060613492616565.png) no-repeat;
+}
+.box .message .messageLeft ul {
+  width: 255px;
+  float: right;
+  box-shadow: -5px 4px 23px #888888;
+}
+.box .message .messageLeft ul li {
+  padding: 10px 0;
+}
+.box .message .messageLeft ul li a {
+  display: block;
+  width: 182px;
+  text-decoration: none;
+  margin: 0 0 0 65px;
+  font-size: 20px;
+  line-height: 45px;
+  color: #555;
+}
+.box .message .messageLeft ul li a:hover {
+  color: red;
+}
+.box .message .messageLeft ul li:nth-child(2) a {
+  border-bottom: 2px solid #8e060b;
+  background: url(../images/2019060613480775738.png) no-repeat;
+  background-position: 90%;
+  color: #b80219;
+  font-weight: 700;
+}
+.box .message .messageRight {
+  float: left;
+  margin-left: 40px;
+}
+.box .message .messageRight .messageRtop {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  color: #999;
+  line-height: 40px;
+}
+.box .message .messageRight .messageRfoot .informations ul {
+  font-size: 16px;
+}
+.box .message .messageRight .messageRfoot .informations ul li {
+  display: flex;
+  width: 868px;
+  justify-content: space-between;
+  position: relative;
+}
+.box .message .messageRight .messageRfoot .informations ul li:nth-child(2n-1) {
+  background-color: #f7f7f7;
+}
+.box .message .messageRight .messageRfoot .informations ul li a {
+  line-height: 55px;
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 0 10px;
+}
+.box .message .messageRight .messageRfoot .informations ul li a:hover {
+  color: #710304;
+  font-weight: 700;
+}
+.box .message .messageRight .messageRfoot .informations ul li span {
+  color: #999;
+  line-height: 55px;
+  position: absolute;
+  right: 10px;
+}
+.box .message .messageRight .messageRfoot .ej-page {
+  display: flex;
+  padding: 40px 0;
+  width: 646px;
+  margin: 0 auto;
+}
+.box .message .messageRight .messageRfoot .ej-page .ej-page-wrap {
+  display: flex;
+}
+.box .message .messageRight .messageRfoot .ej-page .ej-page-wrap a {
+  display: block;
+  float: left;
+  margin: 0 20px;
+}
+.box .message .messageRight .messageRfoot .ej-page .ej-page-wrap .home-page,
+.box .message .messageRight .messageRfoot .ej-page .ej-page-wrap .last-page,
+.box .message .messageRight .messageRfoot .ej-page .ej-page-wrap .next-page,
+.box .message .messageRight .messageRfoot .ej-page .ej-page-wrap .trailer-page {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 10px;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+}
+.box .message .messageRight .messageRfoot .ej-page .ej-jump-wrap {
+  margin-left: 16px;
+}
+.box .message .messageRight .messageRfoot .ej-page .ej-jump-wrap span {
+  margin: 0 10px;
+}
+.box .message .messageRight .messageRfoot .ej-page .ej-jump-wrap input {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.box .message .messageRight .messageRfoot .ej-page .ej-jump-wrap a {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+}

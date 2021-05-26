@@ -1,0 +1,185 @@
+.advertising {
+  width: 100%;
+}
+.box {
+  background: url(../images/2019071619355333872.png) no-repeat center;
+  height: 700px;
+  padding-top: 40px;
+}
+.box .message .messageLeft {
+  float: left;
+}
+.box .message .messageLeft h3 {
+  width: 290px;
+  height: 45px;
+  line-height: 45px;
+  color: #343434;
+  font-size: 24px;
+  text-align: center;
+  background: url(../images/2019060613492616565.png) no-repeat;
+}
+.box .message .messageLeft ul {
+  width: 255px;
+  float: right;
+  box-shadow: -5px 4px 23px #888888;
+}
+.box .message .messageLeft ul li {
+  padding: 10px 0;
+}
+.box .message .messageLeft ul li a {
+  text-decoration: none;
+  margin: 0 0 0 65px;
+  font-size: 20px;
+  line-height: 45px;
+  color: #555;
+}
+.box .message .messageLeft ul li a:hover {
+  color: red;
+}
+.box .message .messageRight {
+  float: left;
+  margin-left: 40px;
+}
+.box .message .messageRight .messageRtop {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  color: #999;
+  line-height: 40px;
+}
+.box .message .messageRight .messageRfoot .messageone {
+  background-color: #fff;
+  display: flex;
+  width: 868px;
+  color: #666;
+  font-size: 12px;
+  box-shadow: 2px 0px 20px rgba(170, 170, 170, 0.15);
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneLeft {
+  width: 120px;
+  height: 154px;
+  background: url(../images/2019071615195893171.png) no-repeat;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneLeft a {
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  padding-top: 10px;
+  text-align: center;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneLeft a:nth-child(3) {
+  font-size: 18px;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight {
+  flex: 1;
+  display: flex;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationLeft {
+  height: 40px;
+  padding-top: 65px;
+  margin: 0 15px;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationLeft span {
+  font-size: 22px;
+  color: #333;
+  font-weight: 700;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationLeft span:nth-child(3) {
+  color: red;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationRight {
+  margin-top: 50px;
+  width: 415px;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationRight ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationRight ul li {
+  width: 135x;
+  color: #666;
+  padding: 5px 5px;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationRight ul li a {
+  font-size: 16px;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationRight ul li a span {
+  color: green;
+  font-size: 18px;
+}
+.box .message .messageRight .messageRfoot .messageone .messageoneRight .informationRight ul li a span:nth-child(2) {
+  color: red;
+}
+.box .message .messageRight .messageRfoot .messagetwo,
+.box .message .messageRight .messageRfoot .messagetree {
+  background-color: #fff;
+  width: 868px;
+  color: #666;
+  box-shadow: 2px 0px 20px rgba(170, 170, 170, 0.15);
+  margin-top: 40px;
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoTop,
+.box .message .messageRight .messageRfoot .messagetree .messagetwoTop {
+  display: flex;
+  justify-content: space-between;
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoTop h3,
+.box .message .messageRight .messageRfoot .messagetree .messagetwoTop h3 {
+  width: 160px;
+  height: 36px;
+  text-indent: 30px;
+  line-height: 36px;
+  background: url(../images/2019071014430938104.jpg) no-repeat;
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoTop span,
+.box .message .messageRight .messageRfoot .messagetree .messagetwoTop span {
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  margin-right: 30px;
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoinfo,
+.box .message .messageRight .messageRfoot .messagetree .messagetwoinfo {
+  display: flex;
+  padding-bottom: 15px;
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoinfo ul,
+.box .message .messageRight .messageRfoot .messagetree .messagetwoinfo ul {
+  flex: 1;
+  margin-top: 10px;
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoinfo ul:nth-child(1),
+.box .message .messageRight .messageRfoot .messagetree .messagetwoinfo ul:nth-child(1) {
+  border-right: 1px solid #999;
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoinfo ul li,
+.box .message .messageRight .messageRfoot .messagetree .messagetwoinfo ul li {
+  position: relative;
+  width: 434px;
+  line-height: 30px;
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoinfo ul li a,
+.box .message .messageRight .messageRfoot .messagetree .messagetwoinfo ul li a {
+  display: block;
+  width: 305px;
+  font-size: 16px;
+  color: #525252;
+  margin: 0 0 0 30px;
+  overflow: hidden;
+  /*超出长度的文字隐藏*/
+  white-space: nowrap;
+  /*强制不换行*/
+  text-overflow: ellipsis;
+  /*文字隐藏以后添加省略号*/
+}
+.box .message .messageRight .messageRfoot .messagetwo .messagetwoinfo ul li span,
+.box .message .messageRight .messageRfoot .messagetree .messagetwoinfo ul li span {
+  font-size: 15px;
+  color: #333;
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+.box .message .messageRight .messageRfoot .messagethree {
+  width: 868px;
+}

@@ -1,0 +1,144 @@
+.contend .first {
+  margin-top: 66px;
+  color: #999999;
+}
+.show {
+  margin-top: 26px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  background-color: #faf8f4;
+}
+.show p {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 16px;
+  color: #555555;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.show p span {
+  margin-left: 30px;
+  width: 140px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid #d1c8bf;
+}
+.show p .size {
+  margin-left: 53px;
+}
+.show .water {
+  margin: 20px;
+}
+.show .water span {
+  display: inline-block;
+  margin-left: 26px;
+  width: 140px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid #d1c8bf;
+}
+.show .water .four-one {
+  margin-left: 135px;
+}
+.show .all-show {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #d1c8bf;
+  margin: 25px;
+}
+.all-for {
+  color: #fff;
+  background-color: #710304;
+}
+.liqur ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 58px;
+}
+.liqur ul li {
+  width: 270px;
+  height: 370px;
+  position: relative;
+}
+.liqur ul li:hover img {
+  transform: translateY(-80px) scale(0.85);
+}
+.liqur ul li:hover .mask {
+  border-top: 2px solid #710304;
+  height: 130px;
+}
+.liqur ul img {
+  width: 100%;
+  transition: 0.5s;
+}
+.liqur ul p {
+  text-align: center;
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #efeeee;
+  border-top: 2px solid #710304;
+}
+.liqur ul .mask {
+  overflow: hidden;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  height: 0px;
+  text-align: center;
+  color: #c0a062;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #efeeee;
+  transition: 0.5s;
+}
+.liqur ul .mask .detail {
+  position: absolute;
+  top: -40px;
+  left: 115px;
+  width: 38px;
+  height: 38px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  background-color: #710304;
+  border-radius: 50%;
+}
+.liqur ul .mask a {
+  display: block;
+  margin-top: 40px;
+}
+.liqur ul .mask section {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 100%;
+  color: #000;
+  text-align: center;
+}
+.jop {
+  display: flex;
+  width: 800px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.jop a {
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.jop p {
+  font-weight: 700;
+}
+.jop input {
+  width: 35px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,97 @@
+.advertising {
+  width: 100%;
+}
+.box {
+  height: 700px;
+  padding-top: 40px;
+}
+.box .message .messageLeft {
+  float: left;
+}
+.box .message .messageLeft h3 {
+  width: 290px;
+  height: 45px;
+  line-height: 45px;
+  color: #343434;
+  font-size: 24px;
+  text-align: center;
+  background: url(../images/2019060613492616565.png) no-repeat;
+}
+.box .message .messageLeft ul {
+  width: 255px;
+  float: right;
+  box-shadow: -5px 4px 23px #888888;
+}
+.box .message .messageLeft ul li {
+  padding: 10px 0;
+}
+.box .message .messageLeft ul li a {
+  display: block;
+  width: 182px;
+  text-decoration: none;
+  margin: 0 0 0 65px;
+  font-size: 20px;
+  line-height: 45px;
+  color: #555;
+}
+.box .message .messageLeft ul li a:hover {
+  color: red;
+}
+.box .message .messageLeft ul li:nth-child(4) a {
+  border-bottom: 2px solid #8e060b;
+  background: url(../images/2019060613480775738.png) no-repeat;
+  background-position: 90%;
+  color: #b80219;
+  font-weight: 700;
+}
+.box .message .messageRight {
+  float: left;
+  margin-left: 40px;
+}
+.box .message .messageRight .messageRtop {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  color: #999;
+  line-height: 40px;
+}
+.box .message .messageRight .messageRfoot .informations {
+  min-height: 428px;
+  width: 868px;
+  background: url(../images/2019071619472393705.png) no-repeat;
+}
+.box .message .messageRight .messageRfoot .informations p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.box .message .messageRight .messageRfoot .informations .phone,
+.box .message .messageRight .messageRfoot .informations .fax {
+  display: flex;
+  margin-left: 50px;
+}
+.box .message .messageRight .messageRfoot .informations .phone span,
+.box .message .messageRight .messageRfoot .informations .fax span {
+  line-height: 36px;
+  text-align: left;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+}
+.box .message .messageRight .messageRfoot .informations .phone span:nth-child(1),
+.box .message .messageRight .messageRfoot .informations .fax span:nth-child(1) {
+  background-color: #c0a063;
+  width: 150px;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.box .message .messageRight .messageRfoot .informations .phone {
+  padding-top: 100px;
+}

@@ -1,0 +1,47 @@
+nav {
+  background-color: #2b2d3f;
+  height: 50px;
+}
+nav .box {
+  display: flex;
+  text-align: center;
+  background-color: #2b2d3f;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 50px;
+}
+nav .box a {
+  flex: 1;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+}
+nav .box a:hover {
+  color: #ec495e;
+}
+.content {
+  background: url(../../images/login.png);
+  width: 100%;
+  height: 950px;
+  background-position: center center;
+  background-size: cover;
+}
+footer {
+  height: 70px;
+  background-color: #000000;
+}
+footer .box {
+  width: 500px;
+  margin: 0 auto;
+  line-height: 70px;
+  text-align: center;
+}
+footer .box span {
+  color: #999999;
+  font-size: 14px;
+  padding-right: 15px;
+}
+footer .box a {
+  color: #ec495e;
+}
